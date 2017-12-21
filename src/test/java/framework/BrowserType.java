@@ -40,6 +40,7 @@ public class BrowserType {
         return driver;
     }
 
+
     private static enum Browser {
         FIREFOX,
         CHROME,

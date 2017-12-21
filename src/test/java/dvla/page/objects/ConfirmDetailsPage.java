@@ -25,10 +25,12 @@ public class ConfirmDetailsPage extends LoadableComponent<ConfirmDetailsPage> {
         PageFactory.initElements(driver, this);
     }
 
+
     @Override
     protected void load() {
         sc.waitForElementToBeDisplayed(registrationNumberElement, 5);
     }
+
 
     @Override
     protected void isLoaded() {

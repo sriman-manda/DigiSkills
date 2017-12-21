@@ -33,6 +33,7 @@ public class TestDataFiles {
         Assert.assertTrue(fd.size() > 0, "No files found on: " + filesPath);
     }
 
+
     @Then("^A report is created with all received details$")
     public void createReportWithAllReceivedDetails() {
         scenario.write("Name   Extension   Size   Mime Type");
@@ -44,12 +45,14 @@ public class TestDataFiles {
         }
     }
 
+
     @When("^I filter the files based on supported mime type \"([^\"]*)\"$")
     public void filterFilesByMimeType(String mimeType) {
         fd = rf.getFilesDetailsByMimeType(mimeType, filesPath);
         Assert.assertTrue(fd.size() > 0, "No files found filtered by mime type: " + mimeType);
         scenario.write("Supported files filtered by mime: " + mimeType);
     }
+
 
     @Then("^A report is created listing only the supported files$")
     public void createReportWithSupportedFiles() {
