@@ -21,25 +21,6 @@
 
     </build>
     <dependencies>
-
-    <dependency>
-        <groupId>net.sf.jmimemagic</groupId>
-        <artifactId>jmimemagic</artifactId>
-        <version>0.1.5</version>
-    </dependency>
-
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi</artifactId>
-        <version>3.17</version>
-    </dependency>
-
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi-ooxml</artifactId>
-        <version>3.17</version>
-    </dependency>
-
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
