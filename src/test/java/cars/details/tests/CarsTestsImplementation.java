@@ -1,6 +1,6 @@
 package cars.details.tests;
 
-import dvla.page.objects.ConfirmDetailsPage;
+import cartax.page.objects.ConfirmDetailsPage;
 import framework.EventBrowser;
 import framework.FilesOperations;
 import framework.SeleniumCommands;
