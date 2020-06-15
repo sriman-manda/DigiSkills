@@ -26,7 +26,7 @@ public class LogConfig {
         console.setThreshold(level);
         console.activateOptions();
         log.addAppender(console);
-    }
+     }
 
     private static void addFileAppender(Level level) {
         FileAppender fa = new FileAppender();
