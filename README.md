@@ -1,6 +1,6 @@
 # DVLAtest
 ## Prerequisites:
-Linux/MAC,
+Ubuntu/CentOS Linux
 Java 1.8,
 Maven
 
